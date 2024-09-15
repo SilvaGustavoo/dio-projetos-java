@@ -1,18 +1,36 @@
-## Getting Started
+# Projetos do Bootcamp DIO | Claro Java Spring Boot
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Resumo
 
-## Folder Structure
+Aqui serão adicionados todos os projetos realizados durante o Bootcamp, e vocês podem estar acompanhando a minha evolução durante todo o processo até aprender por completo o uso de Java com o framework Spring Boot. Lets go!!
+
+### Estrutura das Pastas
 
 The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: pasta que contém os arquivos .java
+- `lib`: as pastas com os pckages utilizados
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+> Os arquivos que são utilizads para compilação se encontram na pasta `bin` definida como pasta padrão.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Projetos Desenvolvidos
 
-## Dependency Management
+### Projeto Java Básico: Conta Banco
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O projeto tinha como objetivo desenvolver um programa em que le os seguintes dados:
+
+* Numero da Conta
+* Agência
+* Nome do Cliente
+* Saldo
+
+E Mostrar na tela a mensagem informando todos os dados solicitados
+
+> *"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque"*
+
+Aqui foi utilizado a Biblioteca ***Scanner*** na leitura dos dados
+
+```
+    Scanner leitor = new Scanner(System.in);
+```
+
