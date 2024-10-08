@@ -99,9 +99,12 @@ E nesse projeto também foi inserido uma `Exception` personalizada nomeada como 
 Aqui foi utilizado as Bibliotecas ***Scanner*** na leitura dos dados, a ***ArrayList*** para manipulação de arrays e a ***Random*** para geração de resultados aleatórios.
 
 ``` java
+    // Leitor de dados
     Scanner leitor = new Scanner(System.in);
 
+    // ArrayList permitiu alterar, adicionar e manipular arrays com mais facilidade
     ArrayList<String> melhoresCandidatos = new ArrayList();
 
+    // Usado no metodo atender para caso 1 retorne que o candidato atendeu
     new Random().nextInt(5)
 ```
