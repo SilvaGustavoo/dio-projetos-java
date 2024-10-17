@@ -80,7 +80,9 @@ e retorna as seguintes informações
 * Total de Tentativas de Contato
 
 Com base nos dados acima o sistema solicita a quantidade de candidatos a vaga pelo `totalCandidatos` e o limite de candidatos que podem passar para a fase seguinte no `totalCandidatosAprovados`.
+
 Após isso é solicitado o nome do candidato e o salário pretendido até dar o total de candidatos a vaga. Com isso, é selecionado os melhores candidatos pelo `melhoresCandidatos` e os salarios desses candidatos no `salariosCandidato`, utilizado como metodo aquele que oferecesse o menor *salário pretendido*, para assim entrarem em contato de acordo com alguns critérios.
+
 Por fim são realizadas as tentativas de contato caso o salário pretendido não ultrapasse o salário base (nesse caso foi R$ 2000,00 reais) contido na `salarioBase`. As tentativas são limitadas em 3 e foi utilizado um metodo `Random()` para que a ligação ocorresse ou não de maneira aleatória. Por fim mostra se o candidato atendeu a ligação, seu nome e o total de tentativas utilizadas para ele atender na variavel `tentativasRealizadas`
 
 > *Nome: [Nome do Candidato Aprovado]* <br> *Salario: [Salario Pretendido do Candidato Aprovado]* <br> <br> *[Demonstra se vai ou não ligar para o candidato]* <br>
